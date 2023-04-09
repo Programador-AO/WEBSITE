@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.logo{
+    width: 250px;
+    margin: auto;
+    display: grid;
+    grid-template:"imagem txt" ;
+    overflow: hidden;
+}
+span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+span label{
+    display: block;
+    padding-left: 12px;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+span label:first-of-type{
+    color: #9103D5;
+}
+.imagem img{
+    height: 60px;
+}
+body{
+    background-color: rgb(7, 5, 15);
+    color: aliceblue;
+}
+.info{
+    text-align: center;
+}
+.block{
+    display: block;
+    width: 100%;
+    padding: 50px 0 0 0;
+    margin: auto;
+}
+.left{
+        text-align: left;
+}
+.entradas a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.9em;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    padding: 60px 40px;
+    background-color: rgba(20, 11, 43, 0.644);
+}
+.saidas, .entradas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    height: 130px;
+}
+.entradas input{
+    padding: 12px;
+    border: none;
+    color: inherit;
+    font-size: 0.97em;
+    border-radius: 5px;
+    background-color: rgb(10, 7, 20);
+}
+input:focus{
+    outline: 1px solid #9103D5;
+
+}
+.saidas input, .button{   
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.73em;
+}
+.entradas{
+    height: 170px;
+    color: rgba(214, 213, 213, 0.74);    
+}
+input::placeholder{
+    color: rgba(214, 213, 213, 0.74);       
+}
+input, .button, .info{
+    width: 320px;
+}
+.saidas input{
+    background-color: #9103D5;
+    color: inherit;
+}
+.button{
+    border: 2px solid #9103D5;
+    background-color: transparent;
+    text-align: center;
+    color: inherit;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #9103D5;
+    transition: 0.5s ease;
+}
+@media screen and (max-width: 414px) {
+    body{
+        background-color: rgb(18, 9, 44);
+    }
+    form{
+        background-color: transparent;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 280px) {
+    input, .button, .info{
+        width: 260px;
+    }
+    .logo{
+        width: 220px;
+        font-size: 0.9em;
+    }
+    .imagem img{
+        height: 45px;
+    }
+}
