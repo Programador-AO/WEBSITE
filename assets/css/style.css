@@ -16,6 +16,7 @@
 body {
   width: 100%;
   background-color: #0a111d;
+  color: var(--gray);
 }
 .container {
   width: 100%;
@@ -92,8 +93,27 @@ body {
   background: var(--secondary);
   color: #fff;
   font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-transform: Uppercase;
+  border-radius: 0.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid var(--primary);
+}
+
+.button-primary-flat:hover {
+  text-decoration: none;
+  min-width: 12.4rem;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   text-transform: Uppercase;
   border-radius: 0.5rem;
   padding-top: 1.2rem;
@@ -111,8 +131,8 @@ body {
   background: var(--primary);
   color: #fff;
   font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   text-transform: Uppercase;
   border-radius: 0.5rem;
   padding-top: 1.2rem;
@@ -121,6 +141,26 @@ body {
   padding-right: 1.6rem;
   cursor: pointer;
   text-align: center;
+  border: 1px solid var(--primary);
+}
+
+.button-primary:hover {
+  text-decoration: none;
+  min-width: 12.4rem;
+  background: var(--secondary);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-transform: Uppercase;
+  border-radius: 0.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid var(--primary);
 }
 
 .button-secondary {
@@ -129,8 +169,8 @@ body {
   background: var(--secondary);
   color: #fff;
   font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   text-transform: Uppercase;
   border-radius: 0.5rem;
   padding-top: 1.2rem;
@@ -139,6 +179,26 @@ body {
   padding-right: 1.6rem;
   cursor: pointer;
   text-align: center;
+  border: 1px solid var(--secondary);
+}
+
+.button-secondary:hover {
+  text-decoration: none;
+  min-width: 12.4rem;
+  background: var(--secondary);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-transform: Uppercase;
+  border-radius: 0.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid var(--primary);
 }
 
 .container .content {
@@ -146,45 +206,37 @@ body {
   margin-right: 15.2rem;
 }
 
-
-
-
-
-
-
-
-
-
-.hero {
-  width: 100%;
+section.top {
+  margin-top: 6.4rem;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: #0a111d;
+  justify-content: space-between;
 }
-.hero .detalhes {
-  display: flex;
-  gap: 2rem;
+
+section.top .left {
+  width: 46.3rem;
   flex-direction: column;
-  color: #bfc0c2;
-  width: 50%;
   animation-name: slide;
   animation-duration: 2s;
 }
-.hero .detalhes h1 {
+
+section.top .right img {
+  animation: slide1 2s;
+}
+
+section.top .left .title {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.2rem;
+  margin-bottom: 2rem;
   color: #fff;
 }
-.hero .detalhes .three button {
-  background-color: #8408bd;
-  padding: 0.7rem;
-  border-radius: 0.5rem;
-  color: #bfc0c2;
-  border: 0;
-  cursor: pointer;
-}
-.hero img {
-  width: 350px;
-  animation: slide1 2s;
+
+section.top .left .description {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  margin-bottom: 4rem;
 }
 
 @media screen and (max-width: 773px) {

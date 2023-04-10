@@ -1,7 +1,16 @@
 <?php include './includes/header.php' ?>
 <div class="content">
-    <div class="hero">
-        <div class="detalhes">
+    <section class="top">
+        <div class="left">
+            <h1 class="title">A maior plataforma para programadores angolanos</h1>
+            <p class="description">Nossa missão é ajudar os programadores angolanos e de língua portuguesa a melhorar suas habilidades e conhecimentos de programação</p>
+            <a href="./registrar-se.php" class="button-primary">Criar Conta</a>
+        </div>
+        <div class="right">
+            <img src="./assets/images/computer.png" alt="programador ao - computer">
+        </div>
+
+        <!-- <div class="detalhes">
             <div class="one">
                 <h1>A maior plataforma para</h1>
                 <h1>programadores angolanos</h1>
@@ -18,9 +27,11 @@
         </div>
         <div class="foto">
             <img src="imagens/foto-1.png" alt="pc">
-        </div>
-    </div>
-    <div class="publicidade">
+        </div> -->
+    </section>
+
+
+    <!-- <div class="publicidade">
         <h1>Faça parte da maior plataforma de <br> programadores angolanos</h1>
         <h3>
             Se voce é um programador angolano em busca de uma plataforma vibrante e colaborativa, voce está no lugar
@@ -134,6 +145,6 @@
                 <p>Sobre nós</p>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 <?php include './includes/footer.php'; ?>
