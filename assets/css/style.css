@@ -9,18 +9,21 @@
   font-size: 62.5%;
   --primary: #9103d5;
   --secondary: #10121f;
+  --secondaryB: #161828;
   --gray: #e1e1e6;
   --gray-black: #a8a8b3;
 }
 
 body {
   width: 100%;
-  background-color: #0a111d;
+  background-color: var(--secondary);
   color: var(--gray);
 }
+
 .container {
   width: 100%;
 }
+
 .container .header {
   width: 100%;
   height: 8.2rem;
@@ -30,21 +33,16 @@ body {
   padding-left: 2.4rem;
   padding-right: 2.4rem;
   animation: slide-header 1s;
-  background-color: var(--secondary);
+  background-color: var(--secondaryB);
   color: var(--gray-black);
 }
 
 @media screen and (max-width: 773px) {
-  .links {
-    font-size: 1.5rem;
-    padding-left: 0.2rem;
+  .header .links {
+    display: none;
   }
 
-  .btn {
-    padding-right: 0.2rem;
-  }
-
-  .logo {
+  section.top .right {
     display: none;
   }
 }
@@ -90,7 +88,7 @@ body {
 .button-primary-flat {
   text-decoration: none;
   min-width: 12.4rem;
-  background: var(--secondary);
+  background: var(--secondaryB);
   color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
@@ -147,7 +145,7 @@ body {
 .button-primary:hover {
   text-decoration: none;
   min-width: 12.4rem;
-  background: var(--secondary);
+  background: var(--secondaryB);
   color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
@@ -166,7 +164,7 @@ body {
 .button-secondary {
   text-decoration: none;
   min-width: 12.4rem;
-  background: var(--secondary);
+  background: var(--secondaryB);
   color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
@@ -179,13 +177,13 @@ body {
   padding-right: 1.6rem;
   cursor: pointer;
   text-align: center;
-  border: 1px solid var(--secondary);
+  border: 1px solid var(--secondaryB);
 }
 
 .button-secondary:hover {
   text-decoration: none;
   min-width: 12.4rem;
-  background: var(--secondary);
+  background: var(--secondaryB);
   color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
@@ -201,16 +199,91 @@ body {
   border: 1px solid var(--primary);
 }
 
-.container > .content {
-  margin-left: 15.2rem;
-  margin-right: 15.2rem;
+section {
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+  padding-left: 15.2rem;
+  padding-right: 15.2rem;
 }
 
 section.top {
-  margin-top: 6.4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+section.sobre-nos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: var(--secondaryB);
+}
+
+section.caminho-sucesso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+section.caminho-sucesso .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+}
+
+section.caminho-sucesso .cards .card {
+  padding: 3.2rem;
+  background-color: var(--secondaryB);
+  border-radius: 0.5rem;
+  width: 32.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+section.caminho-sucesso > .cards > .card > svg {
+  text-align: left;
+  margin-bottom: 1.6rem;
+}
+
+section.caminho-sucesso > .cards > .card > h2 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+section.caminho-sucesso > .cards > .card > p {
+  text-align: left;
+  color: var(--gray-black);
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 180.69%;
+}
+
+section > .title {
+  width: 596px;
+  margin-bottom: 3.2rem;
+}
+
+section > .button-primary-flat {
+  margin-top: 4.2rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.2rem;
+  color: #ffffff;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  color: var(--gray-black);
 }
 
 section.top .left {
@@ -234,9 +307,10 @@ section.top .left .title {
 
 section.top .left .description {
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.9rem;
   margin-bottom: 4rem;
+  color: var(--gray-black);
 }
 
 footer {
@@ -244,7 +318,8 @@ footer {
 }
 
 footer div.body {
-  background: rgba(217, 217, 217, 0.01);
+  background-color: rgba(22, 24, 40, 0.01);
+  border-top: 1px solid rgba(225, 225, 230, 0.22);
   padding-top: 4.8rem;
   padding-bottom: 4.8rem;
   display: flex;
@@ -302,7 +377,7 @@ footer div.body .block .links a:hover {
 }
 
 footer div.footer {
-  background-color: var(--secondary);
+  background-color: var(--secondaryB);
   padding-bottom: 1.6rem;
   padding-top: 1.6rem;
   display: flex;
