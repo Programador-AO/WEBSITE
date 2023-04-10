@@ -9,27 +9,7 @@
         <div class="right">
             <img src="./assets/images/computer.png" alt="programador ao - computer">
         </div>
-
-        <!-- <div class="detalhes">
-            <div class="one">
-                <h1>A maior plataforma para</h1>
-                <h1>programadores angolanos</h1>
-            </div>
-            <div class="two">
-                <h3>
-                    Nossa missão é ajudar os programadores e de língua <BR /> portuguesa a melhorar suas hablidades
-                    e conhecimentos <BR /> de programação
-                </h3>
-            </div>
-            <div class="three">
-                <button type="submit">CRIAR CONTA</button>
-            </div>
-        </div>
-        <div class="foto">
-            <img src="imagens/foto-1.png" alt="pc">
-        </div> -->
     </section>
-
 
     <!-- <div class="publicidade">
         <h1>Faça parte da maior plataforma de <br> programadores angolanos</h1>
