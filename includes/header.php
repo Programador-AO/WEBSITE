@@ -26,7 +26,7 @@
                     <li><a href="./projectos.php">Projectos</a></li>
                     <li><a href="./eventos.php">Eventos</a></li>
                     <li><a href="./blog.php">Blog</a></li>
-                    <li><a href="./sobre-nos.html">Sobre nós</a></li>
+                    <li><a href="./sobre-nos.php">Sobre nós</a></li>
                 </ul>
             </div>
             <div class="btn">
