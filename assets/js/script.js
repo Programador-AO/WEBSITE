@@ -14,3 +14,18 @@ function rolar() {
         document.getElementById('opc').setAttribute('class', '');
     }
 }
+
+const navLinks = document.querySelectorAll(".nav-link");
+const currentUrl = window.location.href;
+
+navLinks.forEach(link => {
+    link.classList.remove("active");
+
+    // Adicione a classe "active" apenas ao link clicado
+    if (link.children[0].href == currentUrl)
+        link.classList.add("active");
+});
+
+
+
+

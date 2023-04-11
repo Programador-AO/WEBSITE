@@ -12,8 +12,8 @@
     </section>
 
     <section class="section bg-secondaryB">
-        <h1 class="title">Faça parte da maior plataforma de programadores angolanos</h1>
-        <p class="text">
+        <h1 class="title mb-32 w-596">Faça parte da maior plataforma de programadores angolanos</h1>
+        <p class="text line-32 mb-32">
             Se você é um programador angolano em busca de uma plataforma vibrante e colaborativa, você está no lugar certo! Junte-se a nós e faça parte da maior plataforma de programadores do país.
             </br>
             </br>
@@ -23,7 +23,7 @@
     </section>
 
     <section class="section">
-        <h1 class="title">O caminho para ser um programador de sucesso</h1>
+        <h1 class="title mb-32 w-596">O caminho para ser um programador de sucesso</h1>
         <div class="cards">
             <div class="card bg-secondaryB zoom p-32 w-324 flex-col">
                 <svg class="card-svg" width="167" height="167" viewBox="0 0 167 167" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,8 +57,8 @@
     </section>
 
     <section class="section bg-secondaryB">
-        <h1 class="title">Projectos desenvolvidos pela comunidade</h1>
-        <p class="text">Esses projetos são criados e desenvolvidos em conjunto pelos membros da comunidade e podem ter diferentes objetivos e escopos, desde soluções para problemas locais até soluções de escala global.</p>
+        <h1 class="title mb-32 w-596">Projectos desenvolvidos pela comunidade</h1>
+        <p class="text line-20 mb-24">Esses projetos são criados e desenvolvidos em conjunto pelos membros da comunidade e podem ter diferentes objetivos e escopos, desde soluções para problemas locais até soluções de escala global.</p>
         <div class="cards">
             <a href="" class="card border-gray hover p-32 w-324">
                 <h3 class="card-h3">Dedicação</h2>

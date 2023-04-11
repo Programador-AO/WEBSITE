@@ -73,8 +73,19 @@
   flex-direction: column;
 }
 
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .between {
   justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
 }
 
 .text-sm {
@@ -107,8 +118,32 @@
   margin-top: 2.8rem;
 }
 
+.mt-64 {
+  margin-top: 6.4rem;
+}
+
 .ml-24 {
   margin-left: 2.4rem;
+}
+
+.mb-32 {
+  margin-bottom: 3.2rem;
+}
+
+.mb-48 {
+  margin-bottom: 4.8rem;
+}
+
+.mb-28 {
+  margin-bottom: 2.8rem;
+}
+
+.mb-12 {
+  margin-bottom: 1.2rem;
+}
+
+.mb-24 {
+  margin-bottom: 2.4rem;
 }
 
 .py-24 {
@@ -131,6 +166,11 @@
   padding-bottom: 1.2rem;
 }
 
+.py-32 {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+}
+
 .p-32 {
   padding: 3.2rem;
 }
@@ -139,14 +179,85 @@
   padding: 1.2rem;
 }
 
+.h-38 {
+  height: 3.8rem;
+}
+
+.h-42 {
+  height: 4.2rem;
+}
+
+.gap-28 {
+  gap: 2.8rem;
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
+
+.w-124 {
+  width: 12.4rem;
+}
+
+.w-216 {
+  width: 21.6rem;
+}
+
 .w-324 {
   width: 32.4rem;
+}
+
+.w-560 {
+  width: 56rem;
+}
+
+.w-596 {
+  width: 59.6rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.line-20 {
+  line-height: 2rem;
+}
+
+.line-22 {
+  line-height: 2.2rem;
+}
+
+.line-32 {
+  line-height: 3.2rem;
 }
 
 .zoom:hover {
   transform: scale(1.05);
   transition: 0.4s;
 }
+
+.breadcrumb {
+  display: flex;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  gap: 1rem;
+}
+
+.breadcrumb > a {
+  text-decoration: none;
+  color: var(--gray-black);
+}
+
+.breadcrumb > a:hover {
+  color: var(--gray);
+  transition: 0.4s;
+}
+
+.breadcrumb > span {
+}
+
 /* #endregion */
 
 body {
@@ -157,6 +268,10 @@ body {
 
 .container {
   width: 100%;
+}
+
+.content {
+  min-height: 100vh;
 }
 
 .container .header {
@@ -431,15 +546,6 @@ section.section {
   cursor: pointer;
 }
 
-section > .title {
-  width: 596px;
-  margin-bottom: 3.2rem;
-}
-
-section > .text {
-  margin-bottom: 2.8rem;
-}
-
 .title {
   font-weight: 700;
   font-size: 3.6rem;
@@ -450,7 +556,6 @@ section > .text {
 .text {
   font-weight: 400;
   font-size: 1.6rem;
-  line-height: 3.2rem;
   color: var(--gray-black);
 }
 
@@ -459,6 +564,7 @@ section > .text {
 }
 
 footer {
+  margin-top: auto;
   flex-direction: column;
 }
 
@@ -484,9 +590,6 @@ footer div.body .block:first-child p {
   color: var(--gray-black);
   margin-top: 0.8rem;
   margin-bottom: 3.7rem;
-}
-
-footer div.body .block:first-child a.button-primary-flat {
 }
 
 footer div.body .block h2 {

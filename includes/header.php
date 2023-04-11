@@ -22,11 +22,11 @@
             </a>
             <div class="links">
                 <ul>
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="./projectos.php">Projectos</a></li>
-                    <li><a href="./eventos.php">Eventos</a></li>
-                    <li><a href="./blog.php">Blog</a></li>
-                    <li><a href="./sobre-nos.php">Sobre nós</a></li>
+                    <li class="active nav-link"><a href="/">Home</a></li>
+                    <li class="nav-link"><a href="./projectos.php">Projectos</a></li>
+                    <li class="nav-link"><a href="./eventos.php">Eventos</a></li>
+                    <li class="nav-link"><a href="./blog.php">Blog</a></li>
+                    <li class="nav-link"><a href="./sobre-nos.php">Sobre nós</a></li>
                 </ul>
             </div>
             <div class="btn">

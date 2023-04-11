@@ -63,6 +63,7 @@
 <!-- Fim do Container -->
 </div>
 
+<?php include 'script.php' ?>
 </body>
 
 </html>
