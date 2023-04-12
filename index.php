@@ -2,8 +2,8 @@
 <div class="content">
     <section class="top">
         <div class="left">
-            <h1 class="title">A maior plataforma para programadores angolanos</h1>
-            <p class="description">Nossa missão é ajudar os programadores angolanos e de língua portuguesa a melhorar suas habilidades e conhecimentos de programação</p>
+            <h1 class="title mb-20">A maior plataforma para programadores angolanos</h1>
+            <p class="text-14 mb-40 gray-black">Nossa missão é ajudar os programadores angolanos e de língua portuguesa a melhorar suas habilidades e conhecimentos de programação</p>
             <a href="./registrar-se.php" class="button-primary">Criar Conta</a>
         </div>
         <div class="right">
@@ -23,9 +23,9 @@
     </section>
 
     <section class="section text-center">
-        <h1 class="title mb-32 w-596">O caminho para ser um programador de sucesso</h1>
+        <h1 class="title mb-32 w-596 ">O caminho para ser um programador de sucesso</h1>
         <div class="cards">
-            <div class="card bg-secondaryB zoom p-32 w-324 flex-col">
+            <div class="card bg-secondaryB zoom p-32 w-324 sm-w-full flex-col">
                 <svg class="card-svg" width="167" height="167" viewBox="0 0 167 167" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M150.3 83.5C150.3 46.6682 120.332 16.7 83.5 16.7C46.6682 16.7 16.7 46.6682 16.7 83.5C16.7 120.332 46.6682 150.3 83.5 150.3C120.332 150.3 150.3 120.332 150.3 83.5ZM167 83.5C167 129.617 129.617 167 83.5 167C37.383 167 0 129.617 0 83.5C0 37.383 37.383 0 83.5 0C129.617 0 167 37.383 167 83.5ZM133.6 91.85C133.6 96.4592 129.859 100.2 125.25 100.2H91.85C82.6233 100.2 75.15 92.7268 75.15 83.5V41.75C75.15 37.1408 78.8908 33.4 83.5 33.4C88.1092 33.4 91.85 37.1408 91.85 41.75V75.15C91.85 79.7425 95.6075 83.5 100.2 83.5H125.25C129.859 83.5 133.6 87.2408 133.6 91.85Z" fill="#9103D5" />
                 </svg>
@@ -33,7 +33,7 @@
                 <h2 class="card-h2">Dedicação</h2>
                 <p class="card-p">Você deve estar disposto a dedicar seu tempo e energia para aprender novas habilidades e tecnologias, aprimorar suas habilidades existentes e trabalhar em projetos desafiadores.</p>
             </div>
-            <div class="card bg-secondaryB zoom p-32 w-324 flex-col">
+            <div class="card bg-secondaryB zoom p-32 w-324 sm-w-full flex-col">
                 <svg class="card-svg" width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M44.4004 111.48L72.9608 81.8801C74.5608 80.2001 77.2008 80.2801 78.7208 81.9601L85.12 88.8401C86.72 90.5201 89.3608 90.5201 90.9608 88.8401L107.52 71.4801" stroke="#9103D5" stroke-width="10" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M123.04 87.88L123.6 60.28C123.6 57.8 121.601 55.72 119.201 55.72L91.4408 55.88" stroke="#9103D5" stroke-width="10" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
@@ -43,7 +43,7 @@
                 <h2 class="card-h2">Persistência</h2>
                 <p class="card-p">A programação pode ser difícil e frustrante às vezes, especialmente quando você está tentando resolver um problema complicado. É nesses momentos que a persistência se torna importante.</p>
             </div>
-            <div class="card bg-secondaryB zoom p-32 w-324 flex-col">
+            <div class="card bg-secondaryB zoom p-32 w-324 sm-w-full flex-col">
                 <svg class="card-svg" width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M84.875 160.875C126.849 160.875 160.875 126.849 160.875 84.875C160.875 42.9014 126.849 8.875 84.875 8.875C42.9014 8.875 8.875 42.9014 8.875 84.875C8.875 126.849 42.9014 160.875 84.875 160.875Z" stroke="#9103D5" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M84.9594 118.653H84.875V118.737H84.9594V118.653Z" stroke="#9103D5" stroke-width="10" stroke-linejoin="round" />
@@ -60,13 +60,13 @@
         <h1 class="title mb-32 w-596">Projectos desenvolvidos pela comunidade</h1>
         <p class="text line-20 mb-24">Esses projetos são criados e desenvolvidos em conjunto pelos membros da comunidade e podem ter diferentes objetivos e escopos, desde soluções para problemas locais até soluções de escala global.</p>
         <div class="cards">
-            <a href="" class="card border-gray hover p-32 w-324">
+            <a href="" class="card border-gray hover p-32 w-324 sm-w-full">
                 <h3 class="card-h3">Dedicação</h2>
             </a>
-            <a class="card border-gray hover p-32 w-324">
+            <a class="card border-gray hover p-32 w-324 sm-w-full">
                 <h3 class="card-h3">Persistência</h2>
             </a>
-            <a class="card border-gray hover p-32 w-324">
+            <a class="card border-gray hover p-32 w-324 sm-w-full">
                 <h3 class="card-h3">Curiosidade</h2>
             </a>
         </div>
@@ -74,7 +74,7 @@
     </section>
 
     <section class="bg-primary py-24">
-        <div class="flex between">
+        <div class="mobile flex between">
             <div class="flex center">
                 <svg width="58" height="93" viewBox="0 0 58 93" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M49.3 0H8.7C3.89688 0 0 3.90527 0 8.71875V84.2812C0 89.0947 3.89688 93 8.7 93H49.3C54.1031 93 58 89.0947 58 84.2812V8.71875C58 3.90527 54.1031 0 49.3 0ZM29 87.1875C25.7919 87.1875 23.2 84.59 23.2 81.375C23.2 78.16 25.7919 75.5625 29 75.5625C32.2081 75.5625 34.8 78.16 34.8 81.375C34.8 84.59 32.2081 87.1875 29 87.1875ZM49.3 67.5703C49.3 68.7691 48.3213 69.75 47.125 69.75H10.875C9.67875 69.75 8.7 68.7691 8.7 67.5703V10.8984C8.7 9.69961 9.67875 8.71875 10.875 8.71875H47.125C48.3213 8.71875 49.3 9.69961 49.3 10.8984V67.5703Z" fill="#E1E1E6" />

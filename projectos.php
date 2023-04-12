@@ -2,11 +2,12 @@
 <div class="content">
   <section class="flex-col-center py-32 bg-secondaryB">
     <h1 class="title mb-12">PROJECTOS</h1>
-    <p class="text w-560 line-20  mb-24">Acreditamos que a colaboração é a chave para a inovação. É por isso que incentivamos nossos membros a participarem de projetos de código aberto.</p>
+    <p class="text w-560 sm-w-full line-20  mb-24">Acreditamos que a colaboração é a chave para a inovação. É por isso que incentivamos nossos membros a participarem de projetos de código aberto.</p>
     <div class="breadcrumb">
       <a href="/">Home</a>|<span>Projectos</span>
     </div>
   </section>
+
   <section class="section">
     <div class="flex-col w-full items-center">
 

@@ -1,6 +1,6 @@
 <footer>
     <div class="body">
-        <div class="block">
+        <div class="block mb-32">
             <a class="logo" href="/">
                 <img src="../assets/images/logo.svg" class="logo" alt="programador ao - logo">
             </a>

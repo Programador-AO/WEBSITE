@@ -20,6 +20,7 @@
             <a class="logo" href="/">
                 <img src="../assets/images/logo.svg" class="logo" alt="programador ao - logo">
             </a>
+
             <div class="links">
                 <ul>
                     <li class="active nav-link"><a href="/">Home</a></li>
@@ -29,8 +30,15 @@
                     <li class="nav-link"><a href="./sobre-nos.php">Sobre nós</a></li>
                 </ul>
             </div>
-            <div class="btn">
+
+            <div class="buttons">
                 <a class="button-secondary" href="./login.php">Entrar</a>
                 <a class="button-primary-flat" href="./registrar-se.php">Criar conta</a>
+
+                <div class="menu">
+                    <label class="bar"></label>
+                    <label class="bar"></label>
+                    <label class="bar"></label>
+                </div>
             </div>
         </div>
