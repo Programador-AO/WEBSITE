@@ -1,4 +1,4 @@
-<?php include './includes/header.php' ?>
+<?php include './includes/header-app.php' ?>
 <div class="content">
   <section class="flex-col-center py-32 bg-secondaryB">
     <h1 class="title mb-12">PROJECTOS</h1>
@@ -8,7 +8,7 @@
     </div>
   </section>
   <section class="section">
-    <div class="flex-col w-full center">
+    <div class="flex-col w-full items-center">
 
       <div class="flex gap-28 mb-48 w-full">
         <select name="" id="" class="rounded w-216 h-42 bg-secondary border-gray white p-12">
@@ -35,4 +35,4 @@
     </div>
   </section>
 </div>
-<?php include './includes/footer.php'; ?>
+<?php include './includes/footer-app.php'; ?>

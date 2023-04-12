@@ -1,4 +1,4 @@
-<?php include './includes/header.php' ?>
+<?php include './includes/header-app.php'; ?>
 <div class="content">
     <section class="top">
         <div class="left">
@@ -11,7 +11,7 @@
         </div>
     </section>
 
-    <section class="section bg-secondaryB">
+    <section class="section text-center bg-secondaryB">
         <h1 class="title mb-32 w-596">Faça parte da maior plataforma de programadores angolanos</h1>
         <p class="text line-32 mb-32">
             Se você é um programador angolano em busca de uma plataforma vibrante e colaborativa, você está no lugar certo! Junte-se a nós e faça parte da maior plataforma de programadores do país.
@@ -22,7 +22,7 @@
         <a href="./sobre-nos.php" class="button-primary-flat">Saber mais</a>
     </section>
 
-    <section class="section">
+    <section class="section text-center">
         <h1 class="title mb-32 w-596">O caminho para ser um programador de sucesso</h1>
         <div class="cards">
             <div class="card bg-secondaryB zoom p-32 w-324 flex-col">
@@ -56,7 +56,7 @@
         </div>
     </section>
 
-    <section class="section bg-secondaryB">
+    <section class="section text-center bg-secondaryB">
         <h1 class="title mb-32 w-596">Projectos desenvolvidos pela comunidade</h1>
         <p class="text line-20 mb-24">Esses projetos são criados e desenvolvidos em conjunto pelos membros da comunidade e podem ter diferentes objetivos e escopos, desde soluções para problemas locais até soluções de escala global.</p>
         <div class="cards">
@@ -79,20 +79,20 @@
                 <svg width="58" height="93" viewBox="0 0 58 93" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M49.3 0H8.7C3.89688 0 0 3.90527 0 8.71875V84.2812C0 89.0947 3.89688 93 8.7 93H49.3C54.1031 93 58 89.0947 58 84.2812V8.71875C58 3.90527 54.1031 0 49.3 0ZM29 87.1875C25.7919 87.1875 23.2 84.59 23.2 81.375C23.2 78.16 25.7919 75.5625 29 75.5625C32.2081 75.5625 34.8 78.16 34.8 81.375C34.8 84.59 32.2081 87.1875 29 87.1875ZM49.3 67.5703C49.3 68.7691 48.3213 69.75 47.125 69.75H10.875C9.67875 69.75 8.7 68.7691 8.7 67.5703V10.8984C8.7 9.69961 9.67875 8.71875 10.875 8.71875H47.125C48.3213 8.71875 49.3 9.69961 49.3 10.8984V67.5703Z" fill="#E1E1E6" />
                 </svg>
-                <h1 class="ml-24 title flex-col ">
+                <h1 class="ml-24 title flex-col center">
                     <span class="text-20">Aplicativos para</span>
                     Android e iOS
                     <span class="text-20">Baixe e veja nossos conteúdos</span>
                 </h1>
             </div>
             <div class="flex center cards">
-                <a href="#googlepla" class="flex card bg-white py-12 px-24 zoom">
+                <a href="#googlepla" class="flex card items-center bg-white py-12 px-24 zoom">
                     <svg width="38" height="42" viewBox="0 0 38 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M24.6142 19.2237L6.50635 1.06661L29.5452 14.2926L24.6142 19.2237ZM1.78043 0C0.713811 0.557921 0 1.57531 0 2.89627V39.1037C0 40.4247 0.713811 41.4421 1.78043 42L22.8338 20.9959L1.78043 0ZM36.6669 18.5099L31.8343 15.7121L26.4438 21.0041L31.8343 26.2962L36.7654 23.4983C38.2422 22.3251 38.2422 19.6831 36.6669 18.5099ZM6.50635 40.9416L29.5452 27.7156L24.6142 22.7845L6.50635 40.9416Z" fill="#10121F" />
                     </svg>
                     <h1 class="text-32 secondary ml-24">Google Play</h1>
                 </a>
-                <a href="#playstore" class="flex card bg-white py-12 px-24 zoom">
+                <a href="#playstore" class="flex card items-center bg-white py-12 px-24 zoom">
                     <svg width="35" height="42" viewBox="0 0 35 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M29.2628 22.1947C29.2442 18.7534 30.7877 16.1561 33.9121 14.2432C32.1639 11.7209 29.5231 10.3331 26.0361 10.0612C22.7351 9.79866 19.1273 12.0022 17.8069 12.0022C16.4121 12.0022 13.2133 10.155 10.7027 10.155C5.51408 10.2394 0 14.3276 0 22.6447C0 25.1014 0.446334 27.6394 1.339 30.2586C2.52922 33.6999 6.82519 42.1389 11.3071 41.9983C13.6504 41.942 15.3055 40.3198 18.3555 40.3198C21.3124 40.3198 22.8467 41.9983 25.4596 41.9983C29.9787 41.9326 33.8656 34.2625 35 30.8119C28.9373 27.9332 29.2628 22.3728 29.2628 22.1947ZM23.9997 6.79811C26.5383 3.76006 26.3058 0.993931 26.2314 0C23.9904 0.131274 21.3961 1.53778 19.9176 3.27247C18.2904 5.12906 17.3326 7.42635 17.5372 10.0143C19.9641 10.2019 22.1772 8.94538 23.9997 6.79811Z" fill="#10121F" />
                     </svg>
@@ -102,4 +102,5 @@
         </div>
     </section>
 </div>
-<?php include './includes/footer.php'; ?>
+
+<?php include './includes/footer-app.php'; ?>

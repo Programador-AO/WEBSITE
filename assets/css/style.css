@@ -80,6 +80,11 @@
   text-align: center;
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 .between {
   justify-content: space-between;
 }
@@ -88,10 +93,22 @@
   justify-content: center;
 }
 
+.text {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--gray-black);
+}
+
 .text-sm {
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 2.2rem;
+}
+
+.text-16 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
 }
 
 .text-20 {
@@ -100,18 +117,57 @@
   line-height: 2.2rem;
 }
 
+.text-22 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+}
+
+.text-24 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
 .text-32 {
   font-weight: 700;
   font-size: 3.2rem;
   line-height: 3.8rem;
 }
 
-.center {
-  align-items: center;
+.text-98 {
+  font-weight: 700;
+  font-size: 9.8rem;
 }
 
-.left {
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: center;
+}
+
+.border-gray {
+  border: 1px solid var(--gray);
+}
+
+.items-right {
+  align-items: right;
+}
+
+.items-left {
   align-items: left;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .mt-28 {
@@ -151,6 +207,11 @@
   padding-bottom: 2.4rem;
 }
 
+.py-48 {
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+
 .px-24 {
   padding-left: 2.4rem;
   padding-right: 2.4rem;
@@ -179,6 +240,10 @@
   padding: 1.2rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-38 {
   height: 3.8rem;
 }
@@ -195,8 +260,20 @@
   border-radius: 0.5rem;
 }
 
+.decoration-none {
+  text-decoration: none;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+}
+
 .w-124 {
   width: 12.4rem;
+}
+
+.w-50p {
+  width: 50%;
 }
 
 .w-216 {
@@ -213,6 +290,10 @@
 
 .w-596 {
   width: 59.6rem;
+}
+
+.w-742 {
+  width: 74.2rem;
 }
 
 .w-full {
@@ -493,7 +574,6 @@ section.section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
   padding-top: 4.8rem;
   padding-bottom: 4.8rem;
 }
@@ -551,16 +631,6 @@ section.section {
   font-size: 3.6rem;
   line-height: 4.2rem;
   color: #ffffff;
-}
-
-.text {
-  font-weight: 400;
-  font-size: 1.6rem;
-  color: var(--gray-black);
-}
-
-.border-gray {
-  border: 1px solid var(--gray);
 }
 
 footer {
