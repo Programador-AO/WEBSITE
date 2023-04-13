@@ -28,6 +28,12 @@
                     <li class="nav-link"><a href="./eventos.php">Eventos</a></li>
                     <li class="nav-link"><a href="./blog.php">Blog</a></li>
                     <li class="nav-link"><a href="./sobre-nos.php">Sobre nós</a></li>
+                    <li class="sm-visible-only">
+                        <div class="flex-col w-full">
+                            <a class="button-primary-flat mb-12" href="./login.php">Entrar</a>
+                            <a class="button-primary" href="./registrar-se.php">Criar conta</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
 

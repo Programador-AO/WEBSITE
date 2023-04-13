@@ -32,7 +32,7 @@
         <?php endforeach;  ?>
       </div>
 
-      <a href="./projectos.php" class="button-primary-flat mt-64 w-124">Ver Todos</a>
+      <a href="./projectos.php" class="button-primary-flat mt-64 w-124">Ver Mais</a>
     </div>
   </section>
 </div>

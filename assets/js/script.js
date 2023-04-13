@@ -1,3 +1,4 @@
+/* #region Funcionalidade para abrir e fechar menu */
 var menu = document.querySelector('.menu');
 var linksMenu = document.querySelector('.links');
 
@@ -20,6 +21,13 @@ navLinks.forEach(link => {
     });
 });
 
+document.addEventListener('click', (event) => {
+    // Verifica se o elemento clicado não faz parte do menu ou dos links do menu
+    if (!menu.contains(event.target) && !linksMenu.contains(event.target)) {
+        // Remove a classe 'active' do menu e dos links do menu
+        menu.classList.remove('active');
+        linksMenu.classList.remove('active');
+    }
+});
 
-
-
+/* #endregion */

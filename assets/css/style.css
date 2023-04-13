@@ -380,6 +380,13 @@ body {
   animation: slide-header 1s;
   background-color: var(--secondaryB);
   color: var(--gray-black);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.sm-visible-only {
+  display: none;
 }
 
 .header .links ul {
@@ -437,7 +444,6 @@ body {
 .button-primary-flat {
   text-decoration: none;
   min-width: 12.4rem;
-  background: var(--secondaryB);
   color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
@@ -456,7 +462,6 @@ body {
 .button-primary-flat:hover {
   text-decoration: none;
   min-width: 12.4rem;
-  background: var(--primary);
   color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
@@ -513,7 +518,6 @@ body {
 .button-secondary {
   text-decoration: none;
   min-width: 12.4rem;
-  background: var(--secondaryB);
   color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
@@ -733,6 +737,31 @@ footer.footer p {
   line-height: 12px;
 }
 
+@keyframes slide {
+  0% {
+    transform: translateX(-110px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slide1 {
+  0% {
+    transform: translateX(110px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slide-header {
+  0% {
+    transform: translatey(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 @media screen and (max-width: 773px) {
   .header a > img {
     content: url("../images/logo-56w.png");
@@ -740,6 +769,10 @@ footer.footer p {
 
   .header > .buttons > a {
     display: none;
+  }
+
+  .sm-visible-only {
+    display: flex;
   }
 
   .header > .buttons > .menu {
@@ -758,22 +791,33 @@ footer.footer p {
     transform: translateY(-0.8rem) rotate(-45deg);
   }
 
+  .header {
+    overflow: hidden;
+  }
+
   .header .links {
-    display: none;
+    display: flex;
     background-color: #07050f;
     width: 100%;
-    transition: 0.3s;
+    position: fixed;
+    top: 8.2rem;
+    left: -100rem;
+    transition: 0.3s ease;
   }
 
   .header .links ul {
     width: 100%;
     flex-direction: column;
     text-align: center;
+    gap: 0;
   }
 
-  .links.active {
-    display: absolute;
-    margin-top: 8.2rem;
+  .header .links ul li {
+    padding: 1.4rem;
+  }
+
+  .header .links.active {
+    left: 0;
   }
 
   section {
