@@ -474,6 +474,7 @@ body {
   padding-right: 1.6rem;
   cursor: pointer;
   text-align: center;
+  background-color:var(--primary);
   border: 1px solid var(--primary);
 }
 
